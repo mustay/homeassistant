@@ -10,7 +10,7 @@ blueprint:
       description: The sensor wich triggers the snapshot creation
       selector:
           entity:
-            domain: binary_sensor
+            domain: input_boolean
 
     camera:
       name: Camera
